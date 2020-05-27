@@ -3,7 +3,7 @@ import { getArticles, addArticle, deleteArticle } from './controllers/ArticleCon
 
 const router = new Router();
 router.get('/', (context) => {
-    context.response.body = "Simple CRUD using Deno JS";
+    context.response.body = "Simple CRUD API using Deno JS";
 });
 router.get('/article', getArticles)
     .get('/article/:id', getArticles)

@@ -68,7 +68,7 @@ const deleteArticle = async ({ params, response }: { params: { id: string }, res
 
     response.body = {
         status: true,
-        message: "Successfully article deleted",
+        message: "Successfully deleted article",
     }
 }
 
